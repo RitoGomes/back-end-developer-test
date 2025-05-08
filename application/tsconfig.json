@@ -15,6 +15,7 @@
     "outDir": "./dist",
     "rootDir": "./src/",
     "sourceMap": true,
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
     "lib": ["ES6", "DOM", "ES2017", "ES7"],
     "resolveJsonModule": true,
     "experimentalDecorators": true,
